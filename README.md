@@ -4,6 +4,8 @@
 
 - Curso de Mongo
 	- http://es.slideshare.net/camposer/mongodb-50065006
+- Curso de JavaScript
+	- http://es.slideshare.net/camposer/javascript-bsico-48998083
 
 ##Recursos
 
