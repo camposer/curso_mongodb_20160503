@@ -1,4 +1,16 @@
 db.inventario.find({ "lugar.id": 1 }, { nombre: 1 });
 
-> var cursor = db.inventario.find({ "lugar.id": 1 }, { nombre: 1, cantidad: 1 });
-> while (cursor.hasNext()) { var p = cursor.next(); print("nombre + cantidad = " + p.nombre + " " + p.cantidad); }
+/*
+var imprimir = function() {
+	var cursor = db.inventario.find();
+	
+	while (cursor.hasNext()) {
+		var producto = cursor.next();
+	
+		for (var i in producto.lugar) {
+			if (producto.lugar.id == 1)
+				print(producto)
+		}
+	}
+}
+*/
